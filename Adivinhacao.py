@@ -51,3 +51,6 @@ def jogar():
             break
 
     print("Fim do jogo")
+
+if(__name__ == "__main__"):
+    jogar()
