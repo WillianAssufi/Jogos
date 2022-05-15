@@ -1,10 +1,9 @@
 import random
+import Apresentacao
 
 def jogar():
 
-    print("*********************************")
-    print("Bem vindo ao jogo de Adivinhação!")
-    print("*********************************")
+    Apresentacao.a_adivinhacao()
 
     numero_secreto = random.randrange(1, 101)
     tentativas = 0
