@@ -12,10 +12,10 @@ def escolhe_jogo():
     jogo = int(input("Qual Jogo quer jogar?: "))
 
     if(jogo == 1):
-        print("Jogando Forca\n")
+        print("\'nJogando Forca\n")
         Forca.jogar()
     elif(jogo == 2):
-        print("Jogando Adivinhação\n")
+        print("\nJogando Adivinhação\n")
         Adivinhacao.jogar()
 
 if(__name__ == "__main__"):
