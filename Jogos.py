@@ -1,3 +1,5 @@
+import pandas as pd
+import win32com.client as win32
 import Forca
 import Adivinhacao
 
@@ -12,7 +14,7 @@ def escolhe_jogo():
     jogo = int(input("Qual Jogo quer jogar?: "))
 
     if(jogo == 1):
-        print("\'nJogando Forca\n")
+        print("\nJogando Forca\n")
         Forca.jogar()
     elif(jogo == 2):
         print("\nJogando Adivinhação\n")
